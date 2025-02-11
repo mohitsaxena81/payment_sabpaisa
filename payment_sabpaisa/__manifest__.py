@@ -8,6 +8,7 @@
     'summary': "A payment provider that covers India",
     'author':'sabpaisa',
     'website':'https://sabpaisa.in/payment-gateway/',
+    'version': '18.0.0.1',
     'description': " ",  # Non-empty string to avoid loading the README file.
     'depends': ['payment', 'website'],
     'data': [
