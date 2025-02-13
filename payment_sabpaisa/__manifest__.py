@@ -3,7 +3,7 @@
 {
     'name': 'Payment Provider: Sabpaisa',
     'version': '2.0',
-    'category': 'Invoicing',
+    'category': 'Payment Gateway',
     'sequence': 350,
     'summary': "A payment provider that covers India",
     'author':'sabpaisa',
