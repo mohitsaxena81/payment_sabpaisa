@@ -3,7 +3,7 @@
 {
     'name': 'Payment Provider: Sabpaisa',
     'version': '2.0',
-    'category': 'Hidden',
+    'category': 'Invoicing',
     'sequence': 350,
     'summary': "A payment provider that covers India",
     'author':'sabpaisa',
@@ -33,3 +33,6 @@
         'python': ['requests','pycryptodomex'],  # Add the required libraries here
     },
 }
+
+
+
