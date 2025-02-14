@@ -21,6 +21,8 @@
         'data/payment_method_data.xml',
         'data/payment_provider_data.xml',  # Depends on `payment_method_demo`.
     ],
+    "images": [
+        'static/img/thubmnail.png'],
     'post_init_hook': 'post_init_hook',
     'uninstall_hook': 'uninstall_hook',
     'assets': {
