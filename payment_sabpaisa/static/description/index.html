@@ -1,27 +1,169 @@
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <div class="oe_span12">
-            <h2 class="oe_slogan">SabPaisa Payment Gateway</h2>
-            <h3 class="oe_slogan">Pay using SabPaisa</h3>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-		<div class="col-md-5 col-sm-5 col-xs-5">
-            <div class="oe_demo oe_picture oe_screenshot">
-                <a href="https://sabpaisa.in/"> <img
-                    src="icon.png">
-                </a>
-                <div class="oe_demo_footer oe_centeralign">Configure SabPaisa Account</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>SabPaisa Payment Gateway</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f8f9fa; /* Light gray background */
+        }
+
+        .oe_container {
+            padding: 40px;
+            background-color: #fff; /* White container */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .oe_row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .oe_span12 {
+            width: 100%;
+            margin-bottom: 20px; /* Space below title */
+        }
+
+        .oe_span5 {
+            width: 40%;
+            margin-right: 20px;
+        }
+
+        .oe_span7 {
+            width: 60%;
+        }
+
+        .oe_demo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oe_picture {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .oe_picture img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .oe_demo_footer {
+            text-align: center;
+            margin-top: 10px;
+            color: #007bff; /* Blue link color */
+        }
+
+        .oe_mt32 {
+            margin-top: 32px;
+        }
+
+        .oe_centeralign {
+            text-align: center;
+        }
+
+        .oe_button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff; /* Blue button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .oe_button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #343a40; /* Dark gray text */
+        }
+
+        h2,
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff; /* Blue headings */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .oe_span5,
+            .oe_span7 {
+                width: 100%; /* Stack on smaller screens */
+                margin: 0;
+            }
+
+            .oe_span5 {
+                margin-bottom: 20px; /* Space between stacked elements */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="oe_container">
+        <div class="oe_row">
+            <div class="oe_span12">
+                <h2>SabPaisa Payment Gateway</h2>
+                <h3>Seamless Online Payments with SabPaisa</h3>
+            </div>
+            <div class="oe_span5">
+                <div class="oe_demo">
+                    <div class="oe_picture">
+                        <a href="https://sabpaisa.in/" target="_blank">
+                            <img src="icon.png" alt="SabPaisa Logo">
+                        </a>
+                    </div>
+                    <div class="oe_demo_footer">Configure SabPaisa Account</div>
+                </div>
+            </div>
+            <div class="oe_span7">
+                <p class="oe_mt32">
+                    SabPaisa is a leading payment gateway solution that empowers businesses to accept online payments
+                    securely and efficiently. It offers a wide range of payment options, including credit cards, debit
+                    cards, net banking, UPI, and wallets, providing a convenient checkout experience for customers.
+                </p>
+                <p>
+                    Key features and benefits of SabPaisa include:
+                <ul>
+                    <li><strong>Multiple Payment Options:</strong> Accept payments from various sources, catering to a
+                        wider customer base.</li>
+                    <li><strong>Secure Transactions:</strong> SabPaisa employs robust security measures to protect
+                        sensitive financial information and ensure safe transactions.</li>
+                    <li><strong>Easy Integration:</strong> Integrate SabPaisa seamlessly with your website or e-commerce
+                        platform with minimal technical effort.</li>
+                    <li><strong>Fast and Reliable:</strong> Experience quick payment processing and high uptime, ensuring
+                        smooth transactions.</li>
+                    <li><strong>Comprehensive Reporting:</strong> Gain valuable insights into your payment data with
+                        detailed reports and analytics.</li>
+                    <li><strong>Dedicated Support:</strong> Access responsive customer support to assist you with any
+                        queries or issues.</li>
+                </ul>
+                </p>
+                <div class="oe_centeralign">
+                    <a href="https://sabpaisa.in/" target="_blank" class="oe_button">Learn More</a>
+                </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
-            <p class="oe_mt32">Sabpaisa</p>
-            <div class="oe_centeralign oe_websiteonly">
-            </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</body>
 
-
-
-
+</html>
