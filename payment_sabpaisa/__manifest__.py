@@ -1,7 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Sabpaisa Payment Gateway',
+    'name': 'SabPaisa Payment Gateway',
     'version': '2.0',
     'category': 'Payment Gateway',
     'sequence': 350,
