@@ -21,6 +21,9 @@
         'data/payment_method_data.xml',
         'data/payment_provider_data.xml',  # Depends on `payment_method_demo`.
     ],
+    'external_dependencies': {
+        'python': ['pycryptodomex'],
+    },
     "images": [
         'static/img/banner.png'
     ],
