@@ -26,6 +26,8 @@
     ],
     'post_init_hook': 'post_init_hook',
     'uninstall_hook': 'uninstall_hook',
+    'installable': True,         # Must be True to make the module installable
+    'application': True,        # Set to True if it's a full app, False if it's a module
     'assets': {
         'web.assets_frontend': [
             'payment_sabpaisa/static/src/js/**/*',
