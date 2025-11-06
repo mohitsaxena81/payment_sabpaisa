@@ -85,7 +85,7 @@ class PgService:
                    "&callbackUrl=" + callback_url + "&amountType=" + "INR" + "&channelId=W"
 
         end_data = AESCipher(self.auth_key, self.auth_iv).encrypt(end_data)
-        end_data = end_data.decode("utf-8")
+        #end_data = end_data.decode("utf-8")
         return end_data
 
     def dec_data(self, enc_response):
